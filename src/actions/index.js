@@ -1,7 +1,7 @@
-export function selectBook(book){
+export function selectCat(cat){
 
 	return {
-			type: 'BOOK_SELECTED',
-			payload: book
+			type: 'CAT_SELECTED',
+			payload: cat
 	};
 }

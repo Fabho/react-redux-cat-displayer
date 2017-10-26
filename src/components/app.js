@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 
-import BookList from '../containers/book-list';
-import BookDetail from '../containers/book-detail';
+import CatList from '../containers/cat-list';
+import CatDetail from '../containers/cat-detail';
 
 export default class App extends Component {
   render(){
     return(
       <div>
-        <BookList />
-        <BookDetail />
+        <CatList />
+        <CatDetail />
       </div>
     );
   }
 }
-
